@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Shopping Cart</title>
+</head>
+<body>
+    <div class="cart-icon">
+        <p><img src="IMAGES/grocery-store.png" alt="carticon" class="icon-small"><span>0</span><sup>$</sup></p>
+    </div>
+<section class="product">
+    <div class="container">
+        <div class="product-items">
+            <div class="product-item">
+                <img src="IMAGES/DietPepsi.png" alt="">
+                <div class="product-item-text">
+                    <p><span>0.40</span><sup>$</sup></p>
+                    <h1 style="font-weight: bold; font-size: 18px;">Diet Pepsi</h1>
+                </div>
+                <button style="font-style: bold; font-size: 20px;">ADD TO CART</button>
+            </div>
+            <div class="product-item">
+                <img src="IMAGES/Pepsi.png" alt="">
+                <div class="product-item-text">
+                    <p><span>0.40</span><sup>$</sup></p>
+                    <h1 style="font-weight: bold; font-size: 18px;">Pepsi</h1>
+                </div>
+                <button style="font-style: bold; font-size: 20px;">ADD TO CART</button>
+            </div>
+            <div class="product-item">
+                <img src="IMAGES/pepsiblue-removebg-preview.png" alt="">
+                <div class="product-item-text">
+                    <p><span>0.40</span><sup>$</sup></p>
+                    <h1 style="font-weight: bold; font-size: 18px;">Pepsi Blue</h1>
+                </div>
+                <button style="font-style: bold; font-size: 20px;">ADD TO CART</button>
+                </div>
+                <div class="product-item">
+                    <img src="IMAGES/PepsiZeroSugar.png" alt="">
+                    <div class="product-item-text">
+                        <p><span>0.40</span><sup>$</sup></p>
+                        <h1 style="font-weight: bold; font-size: 18px;">Pepsi Zero Sugar</h1>
+                    </div>
+                    <button style="font-style: bold; font-size: 20px;">ADD TO CART</button>
+                </div>
+                <div class="product-item">
+                    <img src="IMAGES/PepsiWildCherry.png" alt="">
+                    <div class="product-item-text">
+                        <p><span>0.40</span><sup>$</sup></p>
+                        <h1 style="font-weight: bold; font-size: 18px;">Pepsi Wild Cherry</h1>
+                    </div>
+                    <button style="font-style: bold; font-size: 20px;">ADD TO CART</button>
+    </div>
+</section>
+<section class="cart">
+    <img src="IMAGES/close.png"alt="Closeicon" class="close-icon">
+    <h2> Cart</h2>
+    <form action="">
+        <table>
+            <thead>
+               <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Select</th>
+               </tr> 
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td style="display: flex;align-items: center;"><img style="width: 70px" src="Images/DietPepsi.png" alt="">Diet Pepsi</td>
+                    <td><p><span>0.40</span><sup>$</sup></p></td>
+                    <td><input style="width:30px;outline: none;"type="number" value="1" min="1"></td>
+                    <td style="cursor: pointer;">Delete</td> 
+                </tr>
+                <tr>
+                    <td style="display: flex;align-items: center;"><img style="width: 70px" src="Images/Pepsi.png" alt="">Pepsi</td>
+                    <td><p><span>0.40</span><sup>$</sup></p></td>
+                    <td><input style="width:30px;outline: none;"type="number" value="1" min="1"></td>
+                    <td style="cursor: pointer;">Delete</td> 
+                </tr>
+                <tr>
+                    <td style="display: flex;align-items: center;"><img style="width: 70px" src="Images/pepsiblue-removebg-preview.png" alt="">Pepsi Blue</td>
+                    <td><p><span>0.40</span><sup>$</sup></p></td>
+                    <td><input style="width:30px;outline: none;"type="number" value="1" min="1"></td>
+                    <td style="cursor: pointer;">Delete</td> 
+                </tr>
+                <tr>
+                    <td style="display: flex;align-items: center;"><img style="width: 70px" src="Images/PepsiZeroSugar.png" alt="">Pepsi Zero Sugar</td>
+                    <td><p><span>0.40</span><sup>$</sup></p></td>
+                    <td><input style="width:30px;outline: none;"type="number" value="1" min="1"></td>
+                    <td style="cursor: pointer;">Delete</td> 
+                </tr>
+                <tr>
+                    <td style="display: flex;align-items: center;"><img style="width: 70px" src="Images/PepsiWildCherry.png" alt="">Pepsi Wild Cherry</td>
+                    <td><p><span>0.40</span><sup>$</sup></p></td>
+                    <td><input style="width:30px;outline: none;"type="number" value="1" min="1"></td>
+                    <td style="cursor: pointer;">Delete</td> 
+                </tr> -->
+            </tbody>
+        </table>
+        <div style="text-align: right;" class="price-total">
+            <p style="font-weight: bold;">Price Total:<span>0</span><sup>$</sup></p>
+        </div>
+        <button>PURCHASE</button>
+    </form>
+</section>
+<script src="script.js"></script>
+</body>
