@@ -12,7 +12,7 @@
     justify-content: space between;
     background-color:black;
     padding: 12px
-    background-color: White;
+    
 }
 .product-item{
    width: 19%;
@@ -22,6 +22,7 @@
 .product-item-text{
     display: flex;
     justify-content: space-between;
+    color: White;
 }
 .product item button{
     margin-top: 12px;
