@@ -18,11 +18,13 @@
    width: 19%;
    padding: 12px;
    text-align: center;
-   background-color: white;
 }
 .product-item-text{
     display: flex;
     justify-content: space-between;
+    flex-direction: column; 
+    align-items: center;  
+    color: white;
 }
 .product item button{
     margin-top: 12px;
