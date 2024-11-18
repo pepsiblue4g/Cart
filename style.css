@@ -10,7 +10,7 @@
 .product-items{
     display: flex;
     justify-content: space between;
-    background-color:black;
+    background-color: white;
     padding: 12px
     
 }
@@ -24,7 +24,6 @@
     justify-content: space-between;
     flex-direction: column; 
     align-items: center;  
-    color: white;
 }
 .product item button{
     margin-top: 12px;
@@ -37,6 +36,7 @@
 }
 .product-item button:hover{
     background-color: blue;
+    color: black;
 }
 /* .................................cart........................ */
 .cart{
