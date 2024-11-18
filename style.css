@@ -23,6 +23,7 @@
 .product-item-text{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 .product item button{
     margin-top: 12px;
