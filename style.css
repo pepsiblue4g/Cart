@@ -22,7 +22,6 @@
 .product-item-text{
     display: flex;
     justify-content: space-between;
-    font-color: white;
 }
 .product item button{
     margin-top: 12px;
@@ -49,6 +48,7 @@
 }
 .cart table{
     width: 100%;
+    background-color: black;
 }
 .cart table thead tr th:first-child {
     text-align: left;
