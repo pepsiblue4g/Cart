@@ -22,7 +22,7 @@
 .product-item-text{
     display: flex;
     justify-content: space-between;
-    font color: white;
+    font-color: white;
 }
 .product item button{
     margin-top: 12px;
