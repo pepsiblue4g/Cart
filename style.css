@@ -12,6 +12,7 @@
     justify-content: space between;
     background-color:black;
     padding: 12px
+    background-color: White;
 }
 .product-item{
    width: 19%;
@@ -47,7 +48,6 @@
 }
 .cart table{
     width: 100%;
-    background-color: black;
 }
 .cart table thead tr th:first-child {
     text-align: left;
