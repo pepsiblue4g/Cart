@@ -41,7 +41,6 @@
     margin: auto;
     text-align: center;
     padding-top: 30px;
-    text corlor: white;
 
 }
 .cart h2{
@@ -49,6 +48,7 @@
 }
 .cart table{
     width: 100%;
+    text corlor: white;
 }
 .cart table thead tr th:first-child {
     text-align: left;
