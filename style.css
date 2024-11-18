@@ -19,7 +19,7 @@
    text-align: center;
 
 }
-.product-tem-text{
+.product-item-text{
     display: flex;
     justify-content: space-between;
 }
@@ -41,6 +41,7 @@
     margin: auto;
     text-align: center;
     padding-top: 30px;
+    text corlor: white;
 
 }
 .cart h2{
