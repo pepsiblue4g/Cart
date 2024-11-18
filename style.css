@@ -18,11 +18,11 @@
    width: 19%;
    padding: 12px;
    text-align: center;
+   background-color: white
 }
 .product-item-text{
     display: flex;
     justify-content: space-between;
-    color: White;
 }
 .product item button{
     margin-top: 12px;
